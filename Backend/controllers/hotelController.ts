@@ -8,8 +8,8 @@ import Razorpay from "Razorpay";
 import crypto from "crypto";
 
 const razorpay = new Razorpay({
-  key_id: "rzp_test_Rzn9KM5lSQG7DJ",
-  key_secret: "h5aZ9gqsNFpuuBnXHlRh063N",
+  key_id: "key_id",
+  key_secret: "key_secret",
 });
 
 const router = express.Router();
